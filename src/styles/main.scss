@@ -1,0 +1,17 @@
+/* Import vars and mixins */
+
+@import "vars";
+@import "mixins";
+
+/* Sass media queries */
+
+@import "../../bower_components/sass-mediaqueries/media-queries";
+
+/* Custom */
+
+@import "base";
+@import "partials/animations";
+
+.some-class {
+	color: green;
+}
