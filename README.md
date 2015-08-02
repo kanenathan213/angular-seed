@@ -3,22 +3,21 @@ Angular Seed App
 
 What I start with for new Angular projects
 
-## Getting Started
+## Installing the tools (if you don't already have them)
 
 1. [Download and install Node](https://nodejs.org/). 
 2. Go back to the command line and enter each of the following commands.
-3. `npm install -g bower`
-4. `sudo gem install sass`
+3. Install Bower: `npm install -g bower`
+4. Install Sass: `sudo gem install sass`
 
 ### Setup
 
-1. On the command line, navigate to the folder you want to put the seed app in. I just put it in a folder named Projects (so I just do `cd Projects/`, but you could also put the seed app in Desktop with the command `cd Desktop/`, which, translated to English, is 'change directory to Desktop'. If you're new to command line, [here's a helpful link](http://code.tutsplus.com/tutorials/7-simple-and-useful-command-line-tips--net-11608)
-2. `git clone https://github.intuit.com/nkane/angular-seed.git`. It may be handy to know [common Git commands](http://rogerdudler.github.io/git-guide/).
-3. `cd angular-seed/` once the download is done to step into the the seed app folder
-4. `sudo npm install` (you may need to enter your password)
-5. `sudo bower install` (you may need to enter your password)
+1. `git clone https://github.intuit.com/nkane/angular-seed.git`. It may be handy to know [common Git commands](http://rogerdudler.github.io/git-guide/).
+2. `cd angular-seed/` once the download is done to step into the the seed app folder
+3. `sudo npm install` (you may need to enter your password)
+4. `sudo bower install` (you may need to enter your password)
 
-## Development workflow (do these steps each time you start developing)
+## Development workflow
 
 You're going to have three different command line tabs open while developing, each doing something different. So, for each for each of the following, make sure you're in a new command line tab by hitting `Cmd-t` and typing `bash` before doing each step.
 
