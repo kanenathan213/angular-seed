@@ -15,7 +15,7 @@ What I start with for new Angular projects
 1. `git clone https://github.intuit.com/nkane/angular-seed.git`. It may be handy to know [common Git commands](http://rogerdudler.github.io/git-guide/).
 2. `cd angular-seed/` once the download is done to step into the the seed app folder
 3. `sudo npm install` (you may need to enter your password)
-4. `sudo bower install` (you may need to enter your password)
+4. `bower install` (you may need to enter your password)
 
 ## Development workflow
 
@@ -30,7 +30,7 @@ You're going to have three different command line tabs open while developing, ea
 	- All the needed Sass is in **src/styles**. Edit as needed for your prototype.
 	- The AngularJS app is **src/app.js**. This is where you'd put new components (directives with HTML templates) and new routes (for custom URL's).
 
-4. When you make a change, wait 2-3 seconds for Grunt to compile the CSS, then refresh the browser tab with localhost open to see your changes show up.
+When you make a change, wait 2-3 seconds for Grunt to compile the CSS, then refresh the browser tab with localhost open to see your changes show up.
 
 Contribute
 --------------------
